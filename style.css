@@ -1,6 +1,45 @@
+body {
+  cursor: none;
+}
+
+.brick-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.brick-line .brick {
+  width: 10vw;
+  background-color: red;
+  margin: 20px 20px 0 0;
+  border-radius: 20px;
+}
+
+.ball {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  -webkit-transform: translateY(80px);
+          transform: translateY(80px);
+}
+
+.container-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #bar {
   background-color: red;
-  margin-top: 90vh;
-  width: 18vw;
+  margin-top: 50vh;
+  width: 15vw;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=style.css.map */

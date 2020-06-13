@@ -1,5 +1,37 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    cursor: none;
+}
+
+.brick-line {
+    @include flexCenter();
+    .brick {
+        width: 10vw;
+        background-color: red;
+        margin: 20px 20px 0 0;
+        border-radius: 20px;
+    }
+}
+
+.ball {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.container-bar {
+    @include flexCenter();
+}
+
 #bar {
     background-color: red;
-    margin-top: 90vh;
-    width: 18vw;
+    margin-top: 50vh;
+    // transform: translateX(150px);
+    width: 15vw;
+    border-radius: 20px;
 }
